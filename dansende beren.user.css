@@ -1,0 +1,155 @@
+/* ==UserStyle==
+@name			dansende beren
+@author			Lyra
+@version		1.0.0
+@namespace		lyramsr
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("dansendeberen.be")
+{
+	/* dingen te verbergen */
+	
+	body>div.inhype-bb-block.inhype-bb-block-header.clearfix,
+	.scroll-to-top.btn,
+	.akismet_comment_form_privacy_notice,
+	footer,
+	.post-details-bottom.post-details-bottom-inline,
+	.inhype-post.inhype-post-bottom,
+	.post-info-share,
+	body>div.content-block.clearfix>div.container.html-block-container.inhype-block.aos-init.aos-animate>div,
+	.footer-sidebar-2-wrapper,
+	body>div.content-block>div.container.container-page-item-title>div>div>div>div>div>div.author-info>a,
+	.apple_ad {
+		display: none;
+	}
+	
+	/* ADVERTENTIE STOP MET VERSPRINGEN AAAAAA */
+	
+	body > div.content-block.post-header-incontent.post-sidebar-right > div.post-container.container.span-col-md-8 > div > div.col-md-8 > div > article > div > div > div.inhype-bb-block.inhype-bb-block-single_post_top.clearfix {
+		display: none;
+	}
+	
+	/* auteursveld */
+	
+	body>div.content-block>div.container.container-page-item-title>div>div>div>div>div>div.author-image-wrapper {
+		margin-top: 9px;
+	}
+	
+	body>div.content-block.post-header-incontent.post-sidebar-right>div.post-container-bottom.container.span-col-md-8>div>div>div.author-bio.aos-init.aos-animate>div.author-image-wrapper {
+		margin-top: 6px;
+	}
+	
+	.author-description>a:hover {
+		text-decoration: underline;
+	}
+	
+	/* fuck off met je zijbalk */
+	
+	.col-md-4.post-sidebar.sidebar.sidebar-right {
+		display: none;
+	}
+	
+	.col-md-8 {
+		width: 100%;
+	}
+	
+	.span-col-md-8>.row {
+		width: 926px;
+		margin: auto;
+	}
+	
+	.single-post .container-page-item-title.without-bg .page-item-title-single.page-item-title-single-inside .inhype-post .post-title {
+		max-width: 100%;
+	}
+	
+	/* youtube insluiting 16:9 */
+	
+	iframe.youtube-player {
+		height: 504px;
+		width: 100% !important;
+	}
+	
+	/* site iets breder maken
+	
+	.single-post.blog-small-page-width .post-container .col-md-12 .blog-post-single, .single-post.blog-small-page-width .post-container-bottom .col-md-12 .author-bio, .single-post.blog-small-page-width .post-container-bottom .col-md-12 .navigation-post, .single-post.blog-small-page-width .post-container-bottom .col-md-12 .comments-form-wrapper, .single-post.blog-small-page-width .post-container-bottom .col-md-12 .comments-area, .single-post.blog-small-page-width .post-container-bottom .col-md-12 .inhype-subscribe-block, .single-post.blog-small-page-width .post-container-bottom .col-md-12 .blog-post-related-wrapper, .page.blog-small-page-width .page-container .col-md-12 .entry-content, .page.blog-small-page-width .page-container .col-md-12 .comments-form-wrapper, .page.blog-small-page-width .page-container .col-md-12 .comments-area {
+		margin-left: 122px;
+		margin-right: 122px;
+	} */
+	
+	/* auteurnaam en datum net iets leesbaarder */
+	
+	.inhype-post .post-author, .inhype-post .post-date {
+		font-size: 13px;
+	}
+	
+	/* ruimte onderaan artikels bij gebrek aan footer */
+	
+	.comment-respond {
+		padding-bottom: 30px !important;
+	}
+	
+	/* ruimte boven artikels */
+	
+	.single-post .container-page-item-title.without-bg .page-item-title-single.page-item-title-single-inside {
+		margin-bottom: 25px;
+	}
+	
+	/* mooiere blockquotes */
+	
+	blockquote, .blog-post-single.format-quote.entry-content {
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 40px;
+		padding-right: 45px;
+		border-top: 0;
+		border-bottom: 0;
+		font-family: "PT Sans", sans-serif;
+		font-size: 24px;
+		border-left: 4px solid #424242;
+		font-weight: 400;
+	}
+	
+	/* leesvooruitgang balkje onder wordpress balkje */
+	
+	.blog-post-reading-progress {
+		margin-top: 32px;
+	}
+	
+	/* oude te kleine foto’s centreren */
+	
+	.entry-content>p>img,
+	.wp-caption.alignnone {
+		display: block;
+		margin: auto;
+	}
+	
+	/* dunne lijntjes weg */
+	
+	.author-bio {
+		border-bottom: 0;
+	}
+	
+	/* ruimte rond albums */
+	
+	body>div.content-block.clearfix>div:nth-child(3) {
+		margin-bottom: -15px;
+	}
+	
+	body>div.content-block.clearfix>div:nth-child(4) {
+		margin-bottom: 60px;
+	}
+	
+	/* onnodig vet in reactieveld */
+	
+	.subscribe-label {
+		font-weight: 400 !important;
+	}
+	
+	/* zoeken */
+	
+	body>div.content-block>div.container-fluid.container-page-item-title>div>div>div {
+		width: 953px;
+		padding: 0;
+	}
+}
